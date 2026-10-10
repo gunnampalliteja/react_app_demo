@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "concurrently \"node server/server.js\" \"npm --prefix client run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^9.0.0"
+  },
+  "devDependencies": {}
+}
